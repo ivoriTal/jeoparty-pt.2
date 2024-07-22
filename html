@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeopardy Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Jeopardy Game</h1>
+    </header>
+    <main>
+        <table id="jeopardy-board">
+            <thead>
+                <tr id="categories-row">
+                <th>Geography</th>
+                <th>U.S History</th>
+                <th>Today's Pop Culture</th>
+                <th>Video Gaming</th>
+                <th>Dog Culture</th>
+                <th>Sweet tooth</th>
+                
+            </tr>
+            </thead>
+            <tbody id="questions-body">
+                <tr>
+                <td class="question" data-question="What is the largest country in the world?" data-answer="Russia">
+                <td class="question" data-question="What is the name of the tallest mountain in the world?" data-answer="Mount Everest">
+                <td class="question" data-question="What country has the largest population in the world?" data-answer="China">
+                <td class="question" data-question="What is the name of the longest river in Africa?" data-answer="The Nile River">
+                <td class="question" data-question="What is the capital of Mexico?" data-answer="Mexico City">
+                <td class="question" data-question="What U.S state is home to no documented poisonous snakes" data-answer="Alaska">
+                </tr>
+                <tr>
+                 <td class="question" data-question="Who did Pocahontas marry?" data-answer="John Rolfe">
+                 <td class="question" data-question="What was the name of the Pilgrim's ship?" data-answer="The Mayflower">
+                 <td class="question" data-question="What year were the first enslaved Africans brought to American colonies?" data-answer="1619">
+                 <td class="question" data-question="When was the first U.S dollar printed?" data-answer="1862">
+                 <td class="question" data-question="Who was the confederate president during the Civil War?" data-answer="Jefferson Davis">
+                 <td class="question" data-question="What year did the United States enter World War I" data-answer="1917">
+                </tr>
+                <tr>
+                <td class="question" data-question="Kim kardashian notably dated what Saturday Night Live Alumni?" data-answer="Pete Davidson">
+                <td class="question" data-question="Joe Exotic is the focus of what Netflix documentary series?" data-answer="Tiger King">
+                <td class="question" data-question="According to Billboard, who had the highest-grossing rock tour of 2023?" data-answer="Coldplay">
+                <td class="question" data-question="What team took home the Vince Lombardi Trophy in the 2021 Super Bowl?" data-answer="The Tampa Bay Buccaneers">
+                <td class="question" data-question="In 2023, what purple ice cream drink gained notoriety on social media after users pretended to die upon drinking it?" data-answer="The Grimace Shake">
+                <td class="question" data-question="Tom Kenny voices what popular TV cartoon character" data-answer="Spongebob Squarepants">
+                   </tr>
+                   <tr>
+                <td class="question" data-question="Which spooky 2001 GameCube game starring Marios brother got a reboot for Nintendo Switch in 2019?" data-answer="Luigi's Mansion">
+                <td class="question" data-question="Mendicant Bias and Offensive Bias are fictional AIs in what holy video game franchise that shares its name with a Beyonce song?" data-answer="Halo">
+                <td class="question" data-question="Which video game console released in 2006 pioneered the use of motion controls in its gameplay?" data-answer="Nintendo Wii">
+                <td class="question" data-question="What North Carolina-based video game company created the 2018 breakout hit Fortnite?" data-answer="Epic Games">
+                <td class="question" data-question="Released in 2004 by Blizzard Entertainment and set in the fictional universe of Azeroth, what is the name of the computer game that became the world's most popular MMORPG?" data-answer="World of Warcraft">
+                <td class="question" data-question="In Super Mario Kart, the first game in Nintendo's racing franchise, which of the playable characters has the shortest names" data-answer="Toad">
+                   </tr>
+                   <tr>
+                <td class="question" data-question="What was the breed of the famous cartoon dog, Scooby Doo?" data-answer="Great Dane">
+                <td class="question" data-question="What is a group of puppies called?" data-answer="A litter">
+                <td class="question" data-question="What is the fastest breed of dog?" data-answer="Greyhound">
+                <td class="question" data-question="What is the worlds most popular dog breed?" data-answer="Labradors">
+                <td class="question" data-question="Which dog breed can you get in either Standard, Miniature, or Toy sizes?" data-answer="Poodles">
+                <td class="question" data-question="How many eyelids does a dog have" data-answer="Three">
+                   </tr>
+                   <tr>
+                <td class="question" data-question="At what temperature does chocolate melt?" data-answer="93 degrees Fahrenheit">
+                <td class="question" data-question="What was the occupation of the inventor of cotton candy?" data-answer="Dentist">
+                <td class="question" data-question="Which candy bar shares a name with our galaxy?" data-answer="Milky Way">
+                <td class="question" data-question="What do the M's in M&Ms stand for?" data-answer="The names of the candys creators. Mars and Murrie">
+                <td class="question" data-question="What movie (based on a childrens book) led to the  creation of real candy like Nerds and Everlasting Gobstoppers?" data-answer="Willy Wonka and the Chocolate Factory">
+                <td class="question" data-question="What marshmallow candy comes in unusual flavors like Pumpkin Spice, Caramel Apple, and Sugar Plum" data-answer="Peeps">
+                   </tr>
+            </tbody>
+        </table>
+        <button id="restart">Restart</button>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
